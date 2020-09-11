@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Video Tutorial</title>
+</head>
+<body>
+
+    <div>
+        <h2>Registration page</h2>
+    </div>
+    <hr>
+    
+    <div id="form">
+        <form action="register.php" method="POST" class="submission-form">
+            <label for="cname">FullName:</label><br>
+            <input type="text" name="cname" id="cname">
+            <br><br>
+
+            <label for="cemail">Email:</label><br>
+            <input type="email" name="cemail" id="cemail">
+            <br><br>
+
+            <label for="cpword">Password:</label><br>
+            <input type="password" name="cpword" id="cpword">
+            <br><br>
+
+            <label for="cage">Age:</label><br>
+            <input type="number" name="cage" id="cage" value="21">
+            <br><br>
+
+            Select Gender Type :
+            <br>
+            <input type="radio" name="cgender" id="cmale" class="gender">
+            <label for="cmale">Male</label><br>
+
+            <input type="radio" name="cgender" id="cfemale" class="gender">
+            <label for="cfemale">Female</label><br>
+
+            <input type="radio" name="cgender" id="cothers" class="gender">
+            <label for="cothers">Others</label><br>
+
+            Message
+            <textarea name="message" id="message" cols="20" rows="5"></textarea><br><br>
+
+            <br>
+            <input type="submit" value="submit" name="submit" id="submit">
+
+            
+        </form>
+    </div>
+</body>
+</html>
